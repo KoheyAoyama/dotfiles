@@ -34,6 +34,7 @@ export PATH=~/.composer/vendor/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export XDG_BASE_HOME='~/.config'
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export DOCKER_CONTENT_TRUST=1
 
 
 # Plugin management
