@@ -33,6 +33,7 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export XDG_BASE_HOME='~/.config'
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 
 # Plugin management
