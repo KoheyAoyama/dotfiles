@@ -13,7 +13,12 @@ alias dkc='docker-compose'
 alias gb='gatsby'
 
 
-# Config
+# Export PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+
+
+# Some Config
 export PS1="%~ %# "
 autoload -Uz compinit && compinit
 setopt auto_list
@@ -27,15 +32,8 @@ HISTFILE=$HOME/.zsh-history
 HISTSIZE=1000000
 SAVEHIST=1000000
 setopt share_history
-
-# Export PATH
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-export PATH=~/.composer/vendor/bin:$PATH
-export PATH=/usr/local/bin:$PATH
 export XDG_BASE_HOME='~/.config'
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 export DOCKER_CONTENT_TRUST=1
-
 
 # Plugin management
 # Git clone zplug if it not exists
