@@ -23,7 +23,7 @@ brew install --cask android-studio
 brew install --cask adobe-creative-cloud
 brew install --cask sketch
 brew install --cask google-japanese-ime
-brew install --cask google-backup-and-sync
+brew install --cask google-drive
 brew install --cask microsoft-office
 brew install --cask stoplight-studio
 brew install --cask spark
