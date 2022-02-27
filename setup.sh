@@ -7,21 +7,23 @@ brew install ffmpeg
 brew install htop
 brew install imagemagick
 
-brew cask install google-chrome
-brew cask install zoomus
-brew cask install figma
-brew cask install abstract
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install postman
-brew cask install sourcetree
-brew cask install docker
-brew cask install slack
-brew cask install evernote
-brew cask install scroll-reverser
-brew cask install android-studio
-brew cask install adobe-creative-cloud
-brew cask install sketch
-brew cask install google-japanese-ime
-brew cask install google-backup-and-sync
-brew cask install microsoft-office
+brew install --cask google-chrome
+brew install --cask zoomus
+brew install --cask figma
+brew install --cask abstract
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask postman
+brew install --cask sourcetree
+brew install --cask docker
+brew install --cask slack
+brew install --cask evernote
+brew install --cask scroll-reverser
+brew install --cask android-studio
+brew install --cask adobe-creative-cloud
+brew install --cask sketch
+brew install --cask google-japanese-ime
+brew install --cask google-backup-and-sync
+brew install --cask microsoft-office
+brew install --cask stoplight-studio
+brew install --cask spark
